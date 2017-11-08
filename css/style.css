@@ -1391,9 +1391,9 @@ body[class*="Safari"] .headding-with-bg.slider-headding {
   display: none;
 }
 .img-zoom-in .grid-item-inside:hover .lazy-loaded {
-  -webkit-transform: scale(1.1) rotate(2deg);
-  -moz-transform: scale(1.1) rotate(2deg);
-  transform: scale(1.1) rotate(2deg);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .grid-mask-boxed-left .grid-item-con-text,
 .grid-mask-filled-left .grid-item-con-text {
