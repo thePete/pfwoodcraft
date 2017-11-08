@@ -203,7 +203,7 @@ transition: none;
 .no-touchevents body.header-sticky:not(.ux-bordered) #header,
 #navi-trigger,
 .logo-h1,
-.ux-mobile #wrap-outer,
+.ux-mobile #©,
 #wrap,
 #header:before,
 .ux-mobile #header,
@@ -4141,7 +4141,7 @@ blockquote em, blockquote i, blockquote cite {
   .responsive-ux .top-slider .carousel-des-wrap-inn { display: none; }
 
   /* Header */
-  .responsive-ux #logo img { max-width:120px; height:auto; }
+  .responsive-ux #logo img { max-width:120px; height:100%; }
   .responsive-ux #header .blog-unit-meta { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width: 90%; }
 
   /* Navi */
@@ -4255,7 +4255,7 @@ blockquote em, blockquote i, blockquote cite {
   }
    body.error404.responsive-ux #content_wrap,
   .responsive-ux #wrap {
-    padding-top: 80px;
+    padding-top: 20px;
   }
   .responsive-ux.show-top-space #content,
   .responsive-ux .blog-list > article,
@@ -4348,14 +4348,14 @@ blockquote em, blockquote i, blockquote cite {
   body.responsive-ux #header-main > .container { height: 80px; }
   .responsive-ux .container-fluid { padding-right: 20px; padding-left: 20px; }
   .responsive-ux #wrap-outer { padding-top: 0; }
-  .responsive-ux #wrap { position: relative; z-index: 998; }
+  .responsive-ux #wrap { position: relative; z-index: 0; }
   .responsive-ux #header #logo .logo-h1 { line-height: 80px;}
   .responsive-ux #header { height: 80px;}
   .responsive-ux.page_from_top #wrap { padding-top: 0; }
   .responsive-ux.admin-bar #header { top: 46px; }
   .responsive-ux .navi-logo .logo-wrap,
   .responsive-ux #woocomerce-cart-side { line-height: 80px; height: 80px; }
-  .responsive-ux .logo-image { max-height: 80px; }
+  .responsive-ux .logo-image { max-height: 50px; }
   body.responsive-ux.single-format-gallery.single-portfolio-fullwidth #title-wrap { padding-top: 80px; }
   .responsive-ux .heade-meta { display: none; }
 
